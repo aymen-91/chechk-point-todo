@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    background-color: rgb(70, 150, 229);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-right: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.part1 p:first-child {
+    font-size: 50px;
+    padding-bottom:0;
+}
+::placeholder {
+    color: rgb(115, 185, 255);
+  }
+
+input{
+    width: 1200px;
+    border-radius: 10px;
+    border: none;
+    color:rgb(70, 150, 229) ;
+    height: 35px;
+}
+
+.addButton{
+   
+    width: 100px;
+    border:1px solid white;
+    background-color:rgb(70, 150, 229) ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+body > p{
+    color : red ;
+    align-self: center;
+    padding: 50px 0px 50px 0px;
+    font-size: 60px;
+    color: darkslategrey;
+}
+svg {
+    height: 50px;
+    width:  50px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.lst{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid lightgray;
+   
+ }
+
+/* main part*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background-color: rgb(241, 245, 247);
+}
